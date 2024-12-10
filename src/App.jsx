@@ -38,9 +38,7 @@ export default function App() {
 
   // function onFileChange(event) {
   //   const { files } = event.target;
-
   //   const nextFile = files?.[0];
-
   //   if (nextFile) {
   //     setFile(nextFile);
   //   }
