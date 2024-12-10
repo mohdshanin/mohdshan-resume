@@ -9,11 +9,11 @@
   "rewrites": [
     {
       "source": "/resume",
-      "destination": "/resume/index.html"
+      "destination": "/index.html"
     },
     {
       "source": "/resume/:path*",
-      "destination": "/resume/index.html"
+      "destination": "/index.html"
     }
   ]
 }
