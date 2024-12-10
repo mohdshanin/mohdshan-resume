@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/resume",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/resume",
