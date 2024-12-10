@@ -1,9 +1,12 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/",
-      "destination": "/resume",
-      "permanent": true
+      "source": "/resume",
+      "destination": "/resume/index.html"
+    },
+    {
+      "source": "/resume/:path*",
+      "destination": "/resume/index.html"
     }
   ]
 }
