@@ -3,6 +3,7 @@ import { pdfjs, Document, Page } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import useResizeObserver from './utils/hooks/useResizeObserver';
+import Button from './components/Button';
 import MohdShanPDF from './assets/mohdshan-resume.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -53,6 +54,7 @@ export default function App() {
     <div className="Example">
       <header className='header'>
         <h1>Mohd Shan (ReactJS Frontend Developer)</h1>
+        <Button />
       </header>
       {/* <div className="Example__container">
          <div className="Example__container__load">

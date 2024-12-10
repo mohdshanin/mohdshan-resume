@@ -56,6 +56,20 @@ h1 {
 .Example header h1 {
   font-size: inherit;
   margin: 0;
+  display: inline-block;
+}
+
+.Example header button {
+  border-radius: 25px;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #242424;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  &:hover {
+    cursor: pointer;
+    background-color: transparent;
+  }
 }
 
 .Example__container {
